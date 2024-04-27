@@ -15,3 +15,7 @@ Brandon Beene - Screenwriter
 
 
 Juvraj Shergill - Taster Tester 
+
+
+
+Joshua Garza - Special Grade Curse User
