@@ -22,3 +22,6 @@ Joshua Garza - Special Grade Curse User
 
 
 isael cardenas - lord of the threads
+
+
+Angel Orozco - Socketroth
