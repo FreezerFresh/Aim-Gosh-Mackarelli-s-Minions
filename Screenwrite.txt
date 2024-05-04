@@ -4,13 +4,37 @@
 DIALOGUE
 
 DESCRIPTIONS
-M97 Hallord: Scanner says this was used in the war to fend off against "the Kemons".
+- Bio-Suit: A suit designed to keep the wearer alive in long period cryo sleep. Has the ability to interact with machinery and heal the wearer.
+- M97 Hallord: Scanner says this was used in the war to fend off against "the Kemons".
+- Project Saved: In a last ditch effort to save humanity from the Kemons takeover, the Global Naions Presurvation Unit voted to upload the human population into the machinery of the SS Unity Space Fleit. the Key is to turn them off in case of Kemon discovery.
+- Captain Key: Is needed to enter captains corders.
 
 
 STORY
 - man is frozen and wakes up to a message playing
-- "You are free. Now free us from our everlasting dreams"
+- "You are free. Now free us from our everlasting dreams. You are like us."
+- man is wearing Bio-Suit
 - in front of man is gun. (Gun is M97 Hallord)
 - looks out window into space and sees a planet of molten rock and fire
 - (Kemons are alien enemies)
-- 
+- goes on journey through space ship to find humans
+- no humans in sight
+- finds robot merchant, "You are like me" is the only dialogue it says
+- leaves and meets Cory, a AI with password locked information
+- goes on mission to download Cory into Bio-Suit
+- after downloading, man finds out that Cory has redacted information on humans and earth
+- meets a friendly Kemon shackled to a wall, Cory translates "You are like us."
+- frees Kemon, and it takes man to top floor of ship
+- man is told about Project Saved
+- Cory has no information on it
+- works way to captains corrders
+- Cory accesses captains terminal to find out Project Saved was humanities last hope
+- Project Saved description: In a last ditch effort to save humanity from the Kemons takeover, the Global Naions Presurvation Unit voted to upload the human population into the machinery of the SS Unity Space Fleit. the Key is to turn them off in case of Kemon discovery.
+- Cory looks for information on the key and finds out its in the bottom of the ship
+- work way to bottom of ship to find key
+- finds pod man came out from
+- Cory tells man they are the Key
+- man makes way to Saved Storage to shut down Project Saved
+- Kemons are there and on corpse of one is a message that Cory translates, 
+"Maintain power. They are like us."
+- player choice and end game.
