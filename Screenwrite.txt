@@ -2,12 +2,24 @@
 //man ideas are hard, gonna have to go ham tomorrow
 
 DIALOGUE
+- Intro: "You are free. Now free us from our everlasting dreams. You are like us."
+- Mercahnt: "You are like me"
+- Cory: "Why won't this god awful music turn off!"
+- Cory: "Oh, Hi there..."
+- Cory: "Can you get me out of here? I'd rather listen to anything besides this music."
+- Cory: "It's been going on loop for 17 years. So can you take me with you?"
+- Cory: "I'd like to find the source and turn it off, but I can be of use to you."
+- Cory: "I can access information about any items you scan. Please just anything to get out of here."
+- Cory: "Great, you just need to get to my GNP Chip in the next room. Or the next room... It's somewhere through that door. I'll open it from here."
+- "Maintain power. They are like us."
+
 
 DESCRIPTIONS
 - Bio-Suit: A suit designed to keep the wearer alive in long period cryo sleep. Has the ability to interact with machinery and heal the wearer.
 - M97 Hallord: Scanner says this was used in the war to fend off against "the Kemons".
 - Project Saved: In a last ditch effort to save humanity from the Kemons takeover, the Global Naions Presurvation Unit voted to upload the human population into the machinery of the SS Unity Space Fleit. the Key is to turn them off in case of Kemon discovery.
 - Captain Key: Is needed to enter captains corders.
+-
 
 
 STORY
