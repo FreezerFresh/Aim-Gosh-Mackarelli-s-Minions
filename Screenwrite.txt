@@ -1,10 +1,10 @@
-//typeing stuff here about freedom and stuff
+//typing stuff here about freedom and stuff
 //man ideas are hard, gonna have to go ham tomorrow
 
 DIALOGUE
 - Intro: "You are free. Now free us from our everlasting dreams. You are like us."
 
-- Mercahnt: "You are like me"
+- Robot Merchant: "You are like me"
 
 - Kori: "Why won't this god awful music turn off!"
 - Kori: "Oh, Hi there..."
@@ -45,10 +45,10 @@ DIALOGUE
 - Kori: "There's the Captain's key. Now to plug into his terminal."
 
 - Kori: "Alright let's get cracking. Humans... humans... humaaaaans... Oh! Here's a file on Project Saved."
-- Kori: "So the Earth is all burnt up. And the people are... Well I guess that explains what happened to everybody. Lets go find that Key."
+- Kori: "So the Earth is all burnt up. And the people are... Well, I guess that explains what happened to everybody. Let's go find that Key."
 
 - Kori: "Hey. Where's the Key? It should be here."
-- Kori: "What do you mean this is where you woke up?... Wait... I think your the Key."
+- Kori: "What do you mean this is where you woke up?... Wait... I think you're the Key."
 
 - Kori: "Kemons?? What are they doing here?"
 
@@ -58,37 +58,72 @@ DIALOGUE
 
 
 DESCRIPTIONS
+- Pod Room: It's dark, cold, and dusty. The only life you've known.
 - Bio-Suit: A suit designed to keep the wearer alive in long period cryo sleep. Has the ability to interact with machinery and heal the wearer.
-- M97 Hallord: Scanner says this was used in the war to fend off against "the Kemons".
-- Project Saved: In a last ditch effort to save humanity from the Kemons takeover, the Global Naions Presurvation Unit voted to upload the human population into the machinery of the SS Unity Space Fleit. the Key is to turn them off in case of Kemon discovery.
-- Captain Key: Is needed to enter captains corders.
--
+- M97 Hallord (Pistol): Scanner says this was used in the war to fend off against "the Kemons".
+- Window: Below is void of space is a planet of molten rock and flames. Must be the sun of this system.
+- Pod Door: The heat on the other side feels warm and embracing.
+- Robot Merchant: A merchant used for soldiers of the ship. It sells food and weapons. It's speech isn't as vast as it's stock.
+- Stag In A Can: The manliest choice of food, but not the most delicious.
+- History Chip: For those who don't remember their parent's troubles, and the events that caused this war.
+- MRE: Not as good as they used to be; Now they're filled with chemicals.
+- Field Troopers Uniform: In case someone lost theirs.
+- K27 Assinine (Assult Rifle): A weapon used in the war. Its fire power left Kemons in pieces.
+- Kemons: Aliens that tried to take over Earth. In their attempt, they've slowly been burning the planet.
+- Kemon Corpse: It looks horrified, but they don't have emotions...
+- Hallway Window: The Kemon ships frozen outside look massive compared to these ones.
+- AI Girl: Looks interesting enough to talk to. Maybe she'll know something about why you're here.
+- Music Loop: The speaker system has been broken, playing the same track on loop for the last 17 years.
+- GNP Chip: A chip created by the Global Nations Preservation Unit to store AI's.
+- Control Room Door: It's locked, barricaded, or inoperational; Best to find another way to turn off that music.
+- K.O.R.I.: Kemon Observational Reconisance Intelligence used for storing information on Kemons and reporting back the GNP.
+- Elevator: It's as broken as the rest of the ship. At least it's consistent.
+- Chained Kemon: It looks malnourished, almost sad for a creature that tried to kill you.
+- Friendly Kemon: He looks grateful. Maybe they aren't all bad.
+- Announcement Speaker: Repeats a message about "Project Saved"; Must have been an alert from the GNP.
+- Captain's Quarters Door: A key is needed to enter the Captain's quarters.
+- Captain's Quarters Key: Looks a little bloody.
+- Captain's Quarters: Just as pompous as a captain should be, He must've lived well up here.
+- Captain's Mirror: You look strange. Unrecognizable.
+- Captain's Window: The whole fleet sits in their stations, awaiting orders that will never come.
+- Captain's Terminal: A rusty but neatly organized workspace, fit for a captain.
+- Captain's Controls: Doesn't look to have a way to switch off the music.
+- SS Unity Space Fleit: a fleet of ships meant to be a last resort to the Kemon invasion via being the main controller unit and storage system for Project Saved.
+- Project Saved: In a last ditch effort to save humanity from the Kemons takeover, the Global Nations Preservation Unit voted to upload the human population into the machinery of the SS Unity Space Fleet. The Key is to turn them off in case of Kemon discovery.
+- The Key: Needed for the shutdown of Project Saved. Final fail-safe against the Kemons.
+- Pod Room: It looks just as cold and dark and dusty as before.
+- Pod Room Window: The sun looks smaller next to the sun.
+- Hallway Wall: It's shiny enough to reflect. You look terrible.
+- Saved Storage Room: It's a cage of servers and in the front is a hand scanner.
+- Kemon Bodies: They weren't armed with weapons.
+- Project Saved Servers: They look peaceful, like sleeping machine babies.
+- Project Saved Shutdown: It will require sacrifice to end the humans. Maybe freedom is worth the cost.
 
 
 STORY
 - man is frozen and wakes up to a message playing
 - "You are free. Now free us from our everlasting dreams. You are like us."
 - man is wearing Bio-Suit
-- in front of man is gun. (Gun is M97 Hallord)
-- looks out window into space and sees a planet of molten rock and fire
+- in front of man is a gun. (Gun is M97 Hallord)
+- looks out the window into space and sees a planet of molten rock and fire
 - (Kemons are alien enemies)
-- goes on journey through space ship to find humans
+- goes on a journey through the spaceship to find humans
 - no humans in sight
 - finds robot merchant, "You are like me" is the only dialogue it says
-- leaves and meets Kori, a AI with password locked information
-- goes on mission to download Kori into Bio-Suit
+- leaves and meets Kori, an AI with password-locked information
+- goes on a mission to download Kori into Bio-Suit
 - after downloading, man finds out that Kori has redacted information on humans and earth
 - meets a friendly Kemon shackled to a wall, Kori translates "You are like us."
-- frees Kemon, and it takes man to top floor of ship
+- frees Kemon, and it takes man to the top floor of ship
 - man is told about Project Saved
 - Kori has no information on it
-- works way to captains corrders
+- works way to captain's quarters
 - Kori accesses captains terminal to find out Project Saved was humanities last hope
-- Project Saved description: In a last ditch effort to save humanity from the Kemons takeover, the Global Naions Presurvation Unit voted to upload the human population into the machinery of the SS Unity Space Fleit. the Key is to turn them off in case of Kemon discovery.
-- Kori looks for information on the key and finds out its in the bottom of the ship
-- work way to bottom of ship to find key
+- Project Saved description: In a last ditch effort to save humanity from the Kemons takeover, the Global Nations Preservation Unit voted to upload the human population into the machinery of the SS Unity Space Fleet. The Key is to turn them off in case of Kemon discovery.
+- Kori looks for information on the key and finds out it's in the bottom of the ship
+- work way to the bottom of the ship to find key
 - finds pod man came out from
 - Kori tells man they are the Key
 - man makes way to Saved Storage to shut down Project Saved
-- Kemons are there and on corpse of one is a message that Kori translates, "Maintain power. They are like us."
+- Kemons are there and on the corpse of one is a message that Kori translates, "Maintain power. They are like us."
 - player choice and end game.
