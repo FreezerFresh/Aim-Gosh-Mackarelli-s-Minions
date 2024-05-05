@@ -25,12 +25,36 @@ DIALOGUE
 - Kori: "I don't even have knowledge of the planet I was made on."
 - Kori: "Everything relating to the people that resided here is gone. I'm sorry. It's all been redacted from my memories and access."
 - Kori: "But I know where we can find out! We'll have to get to the Captain's terminal. Plug into there and I'll have access to everything on the ship."
-20
 - Kori: "We can get there via the elevator. (So long as it still works...)"
 
-- 
+- Kori: "Damn. Looks like it's out of the question. Let's keep looking for another way."
 
-- "Maintain power. They are like us."
+- Kori: "Look! It's a Kemon that's restrained. It must've been here for the last 17 years."
+- Chained Kemon: "jir ko tul dahr."
+- Kori: "Hold on I'll boot up translations."
+- Chained Kemon: "You are like us."
+- Kori: "We should help it. 17 years in solitude is no way to treat any creature. Especially with this music."
+
+- Friendly Kemon: "I help go to top floor."
+
+- Kori: "Wow the top floor. I haven't been up here in ages."
+
+- Repeat Announcement: "The day has come. Please prepare for Project Saved to commence. Message will repeat in 5 minutes."
+- Kori: "Ooooh I wonder what Project Saved could be."
+
+- Kori: "There's the Captain's key. Now to plug into his terminal."
+
+- Kori: "Alright let's get cracking. Humans... humans... humaaaaans... Oh! Here's a file on Project Saved."
+- Kori: "So the Earth is all burnt up. And the people are... Well I guess that explains what happened to everybody. Lets go find that Key."
+
+- Kori: "Hey. Where's the Key? It should be here."
+- Kori: "What do you mean this is where you woke up?... Wait... I think your the Key."
+
+- Kori: "Kemons?? What are they doing here?"
+
+- Kori: "Here. I'll translate this. It says, 'Maintain power. They are like us.' What do you think it means?"
+- Kori: "Well, no matter. We're here... Wait! You need to know. If you shut down Project Saved... It will kill you."
+- Kori: "Please don't- Don't go. You're the only person I've had in so long. And if you leave, I'll be left all alone again with that music. You drown out the noise. Please stay..."
 
 
 DESCRIPTIONS
