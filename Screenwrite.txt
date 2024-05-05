@@ -4,13 +4,13 @@
 DIALOGUE
 - Intro: "You are free. Now free us from our everlasting dreams. You are like us."
 - Mercahnt: "You are like me"
-- Cory: "Why won't this god awful music turn off!"
-- Cory: "Oh, Hi there..."
-- Cory: "Can you get me out of here? I'd rather listen to anything besides this music."
-- Cory: "It's been going on loop for 17 years. So can you take me with you?"
-- Cory: "I'd like to find the source and turn it off, but I can be of use to you."
-- Cory: "I can access information about any items you scan. Please just anything to get out of here."
-- Cory: "Great, you just need to get to my GNP Chip in the next room. Or the next room... It's somewhere through that door. I'll open it from here."
+- Kori: "Why won't this god awful music turn off!"
+- Kori: "Oh, Hi there..."
+- Kori: "Can you get me out of here? I'd rather listen to anything besides this music."
+- Kori: "It's been going on loop for 17 years. So can you take me with you?"
+- Kori: "I'd like to find the source and turn it off, but I can be of use to you."
+- Kori: "I can access information about any items you scan. Please just anything to get out of here."
+- Kori: "Great, you just need to get to my GNP Chip in the next room. Or the next room... It's somewhere through that door. I'll open it from here."
 - "Maintain power. They are like us."
 
 
@@ -32,21 +32,20 @@ STORY
 - goes on journey through space ship to find humans
 - no humans in sight
 - finds robot merchant, "You are like me" is the only dialogue it says
-- leaves and meets Cory, a AI with password locked information
-- goes on mission to download Cory into Bio-Suit
-- after downloading, man finds out that Cory has redacted information on humans and earth
-- meets a friendly Kemon shackled to a wall, Cory translates "You are like us."
+- leaves and meets Kori, a AI with password locked information
+- goes on mission to download Kori into Bio-Suit
+- after downloading, man finds out that Kori has redacted information on humans and earth
+- meets a friendly Kemon shackled to a wall, Kori translates "You are like us."
 - frees Kemon, and it takes man to top floor of ship
 - man is told about Project Saved
-- Cory has no information on it
+- Kori has no information on it
 - works way to captains corrders
-- Cory accesses captains terminal to find out Project Saved was humanities last hope
+- Kori accesses captains terminal to find out Project Saved was humanities last hope
 - Project Saved description: In a last ditch effort to save humanity from the Kemons takeover, the Global Naions Presurvation Unit voted to upload the human population into the machinery of the SS Unity Space Fleit. the Key is to turn them off in case of Kemon discovery.
-- Cory looks for information on the key and finds out its in the bottom of the ship
+- Kori looks for information on the key and finds out its in the bottom of the ship
 - work way to bottom of ship to find key
 - finds pod man came out from
-- Cory tells man they are the Key
+- Kori tells man they are the Key
 - man makes way to Saved Storage to shut down Project Saved
-- Kemons are there and on corpse of one is a message that Cory translates, 
-"Maintain power. They are like us."
+- Kemons are there and on corpse of one is a message that Kori translates, "Maintain power. They are like us."
 - player choice and end game.
