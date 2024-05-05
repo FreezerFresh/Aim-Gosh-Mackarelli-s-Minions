@@ -3,14 +3,33 @@
 
 DIALOGUE
 - Intro: "You are free. Now free us from our everlasting dreams. You are like us."
+
 - Mercahnt: "You are like me"
+
 - Kori: "Why won't this god awful music turn off!"
 - Kori: "Oh, Hi there..."
 - Kori: "Can you get me out of here? I'd rather listen to anything besides this music."
 - Kori: "It's been going on loop for 17 years. So can you take me with you?"
 - Kori: "I'd like to find the source and turn it off, but I can be of use to you."
 - Kori: "I can access information about any items you scan. Please just anything to get out of here."
-- Kori: "Great, you just need to get to my GNP Chip in the next room. Or the next room... It's somewhere through that door. I'll open it from here."
+- Kori: "Great, you just need to get to my GNP Chip in the next room. Or the next room... It's somewhere through that door."
+- Kori: "I'll open it from here. once you're there you can slot me into your Bio-Suit and I'll intergrade into it."
+
+- Kori: "Okay great! Now that I'm uploaded I can access information about anything you have scanned!"
+- Kori: "Did you know the weapon you've been using is from the war with the Kemons?"
+- Kori: "Also. I forgot to mention, I'm K.O.R.I., Kemon Observational Reconisance Intelligence."
+- Kori: "One of a kind. And nobody thought to turn me off before they left..."
+- Kori: "Anyway, let's get going wherever you're going."
+- Kori: "Do I have any information about the people on this ship? Well let's see, I should have tons of-"
+- Kori: "Well that's strange. I have no information of the residents of this ship or anything about..."
+- Kori: "I don't even have knowledge of the planet I was made on."
+- Kori: "Everything relating to the people that resided here is gone. I'm sorry. It's all been redacted from my memories and access."
+- Kori: "But I know where we can find out! We'll have to get to the Captain's terminal. Plug into there and I'll have access to everything on the ship."
+20
+- Kori: "We can get there via the elevator. (So long as it still works...)"
+
+- 
+
 - "Maintain power. They are like us."
 
 
