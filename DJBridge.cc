@@ -34,8 +34,18 @@ int main() {
 	AudioClip Song = AudioClip("BattleTheme1.wav"); //This is for battle
 	AudioClip Song2 = AudioClip("Overworld1.wav"); //This is for overworld
 
-	bridges.setDataStructure(Song); //This plays battle
-	bridges.setDataStructure(Song2); //This plays overworld
+	cout << "Enter 'battle' to play the battle theme or 'overworld' to play the overworld theme" << endl;
+	string input;
+	cin >> input;
+
+	if (input == "battle") {
+		bridges.setDataStructure(Song); //This plays battle
+	} else if (input == "overworld") {
+		bridges.setDataStructure(Song2); //This plays overworld
+	} else {
+		cout << "BAD INPUT" << endl;
+		return 1;
+	}
 
 	bridges.visualize();
 
