@@ -13,3 +13,13 @@ void thread(string test) {
   
 }
 
+int main() {
+  thread t1(thread, "player1");
+  thread t1(thread, "player2");
+
+  t1.join();
+  t2.join();
+
+  cin.get();
+
+}
