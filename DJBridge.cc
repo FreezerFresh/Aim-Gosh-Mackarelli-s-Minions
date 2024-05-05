@@ -31,21 +31,12 @@ int main() {
 	bridges.setTitle("Music");
 	bridges.setDescription("Putting Music In");
 
-	ColorGrid cg = ColorGrid(1080, 1920);
+	AudioClip Song = AudioClip("BattleTheme1.wav"); //This is for battle
+	AudioClip Song2 = AudioClip("Overworld1.wav"); //This is for overworld
 
-	Color color(0.5f, 0.5f, 0.5f);
-	for (int row = 0; row < cg.getHeight(); row++) {
-		for (int col = 0; col < cg.getWidth(); col++) {
-			cg.set(row, col, color);
-		}
-	}
+	bridges.setDataStructure(Song); //This plays battle
+	bridges.setDataStructure(Song2); //This plays overworld
 
-	AudioClip Song = AudioClip("BattleTheme.wav");
-
-	bridges.setDataStructure(Song);
-	//bridges.visualize();
-
-	bridges.setDataStructure(cg);
 	bridges.visualize();
 
 	return 0;
