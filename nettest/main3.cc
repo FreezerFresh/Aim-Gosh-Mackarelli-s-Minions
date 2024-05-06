@@ -1,11 +1,16 @@
+  #include <ctime>
+    #include <string>
+    #include <boost/asio.hpp>
+
 #include "map.h"
 #include <unistd.h>
 #include <CircSLelement.h>
 #include <iostream>
 //#include "classes.h"
-#include "Turns.cc"
+//#include "Turns.cc"
 #include "/public/read.h"
 using namespace std;
+    using boost::asio::ip::tcp;
 
 const int MAX_FPS = 60;
 const unsigned int TIMEOUT = 10;
@@ -13,7 +18,7 @@ const int UP = 65;
 const int DOWN = 66;
 const int RIGHT = 67;
 const int LEFT =68;
-
+const int port = 15533;
 void turn_on_ncurses() {
 	initscr();
 	start_color();
@@ -98,10 +103,30 @@ e11->setNext(e12);
 
 
 */
+     string mds(){    
+        using namespace std;
+    time_t now = time(0);
+        return ctime(&now);
+    }
+
 
 int main() {
+      try {
 
+        boost::asio::io_context io_context;
 
+   //     tcp::endpoint endpoint(tcp::v4(), port);
+     //   tcp::acceptor acceptor(io_context, endpoint);
+
+/*        for(;;)
+         
+            tcp::iostream stream;
+            boost::system::error_code ec;
+            acceptor.accept(stream.socket(), ec);
+        if(!ec)
+         
+
+*/
 	turn_on_ncurses();
  Map map;
 int x = Map::SIZE / 2, y = Map::SIZE /2;
@@ -109,22 +134,43 @@ int x = Map::SIZE / 2, y = Map::SIZE /2;
 	map.setcord(2,(Map::SIZE/2)-1,'@');
 	map.setcord(2,(Map::SIZE/2),'@');
 	int level=0;
-while (true) {
-	int ch = getch();
-	if(ch == 'q' || ch == 'Q') break;
- else if (ch==RIGHT) {
+
+		  tcp::endpoint endpoint(tcp::v4(), port);
+          tcp::acceptor acceptor(io_context, endpoint);
+
+
+//while (true) 
+
+
+              tcp::iostream stream;
+              boost::system::error_code ec;
+              acceptor.accept(stream.socket(), ec);
+          if(!ec)
+           {
+			  for (;;){
+
+
+
+
+stream<< "need a command\n";
+			  string str;
+			
+			stream>>str;
+//	int ch = getch();
+	if(str == "QUIT") break;
+ else if (str=="RIGHT") {
 x++;
 if(x>=Map::SIZE) x = Map::SIZE -1;
-}else if (ch == LEFT) {
+}else if (str == "LEFT") {
 x--;
 if(x<0)x=0;
-} else if (ch == UP){
+} else if (str == "UP"){
 y--;
 if(y>=Map::SIZE) y=Map::SIZE -1;
-}else if(ch == DOWN){
+}else if(str == "DOWN"){
 			y++;
 			if(y>=Map::SIZE) y = Map::SIZE -1;
-}else if (ch ==ERR) {
+}else if (str == "GET BONUS") {
 ;
 }
 if(x!= old_x or y!=old_y) {
@@ -158,6 +204,30 @@ old_y=y;
 usleep(1'000'000/MAX_FPS);
 }
 turn_off_ncurses();
-	return 0;
 
-}
+		  }
+  
+  return 0;
+  }    
+     catch(exception& e)     
+      {
+          cerr<<e.what()<<endl;
+      }
+  }
+
+/*
+#include <ctime>
+  #include <iostream>
+  #include <string>
+  #include <boost/asio.hpp>
+  using namespace std;
+  using boost::asio::ip::tcp;
+*/
+
+ /* string mds(){
+      using namespace std;
+  time_t now = time(0);
+      return ctime(&now);
+  }
+*/
+	

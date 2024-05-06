@@ -2,12 +2,32 @@
 #include<iostream>
 #include<string>
 #include<boost/asio.hpp>
+    #include <ctime>
+
+  #include "map.h"
+  #include <unistd.h>
+  #include <CircSLelement.h>
+
+  //#include "classes.h"
+  //#include "Turns.cc"
+  #include "/public/read.h"
+  using namespace std;
+      using boost::asio::ip::tcp;
+
+  const int MAX_FPS = 60;
+  const unsigned int TIMEOUT = 10;
+  const int UP = 65;
+  const int DOWN = 66;
+  const int RIGHT = 67;
+  const int LEFT =68;
+  const int port = 15533;
+
 using namespace std;
 using boost::asio::ip::tcp;
 
 //ideas - having a daily bonus that the server checks up on
 //multiplayer(obviously)
-
+//have a socket get the map back and update it, ans wait for any inputs untill its received and displayed
 void  daily_box( bool k){
 	if(k){
 	k= false;
@@ -34,6 +54,8 @@ int main(int argc, char* argv[]){
 	string line;
 	getline(s,line);
 	cout<<line<<endl;
+	cin>>line;
+		s<<line<<endl;
 
 
 }
