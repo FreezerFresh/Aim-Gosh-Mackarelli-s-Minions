@@ -1,4 +1,5 @@
 //Testing by Juvraj Shergill
+//file addded and changed by Juvraj Shergill
 #include <iostream>
 #include <vector>
 #include <string>
@@ -633,12 +634,24 @@ protected:
     }
 };
 
+// Hero test
+TEST_F(ActorTest, MoveHero) {
+    hero->move(10,10);
+    EXPECT_EQ(hero->x, 10);
+    EXPECT_EQ(hero->y, 10);
+}
 TEST_F(ActorTest, HeroStats) {
     EXPECT_EQ(hero->getHealth(), 100);
     EXPECT_EQ(hero->getSpeed(), 5);
     EXPECT_EQ(hero->getClass(), "Warrior");
 }
 
+// Monster test
+TEST_F(ActorTest, MoveMonster) {
+    monster->move(10,10);
+    EXPECT_EQ(monster->x, 10);
+    EXPECT_EQ(monster->y, 10);
+}
 TEST_F(ActorTest, MonsterStats) {
     EXPECT_EQ(monster->getHealth(), 50);
     EXPECT_EQ(monster->getSpeed(), 3);
