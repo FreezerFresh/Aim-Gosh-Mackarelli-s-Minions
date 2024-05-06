@@ -40,6 +40,14 @@ void  daily_box( bool k){
 }
 
 int main(int argc, char* argv[]){
+ Map map;
+//int x = Map::SIZE / 2, y = Map::SIZE /2;
+//	int old_x = -1, old_y = -1;
+	map.setcord(2,(Map::SIZE/2)-1,'@');
+	map.setcord(2,(Map::SIZE/2),'@');
+//	int level=0;
+
+
 	try {
 			if(argc != 3){
 		cerr << "Usage: client <host> <port>" <<endl;
@@ -51,12 +59,14 @@ int main(int argc, char* argv[]){
 		cout<<"unable to connect: "<< s.error().message()<<endl;
 		return EXIT_FAILURE;
 	}
+		while(true){
+			//have the map read in first by the server 
 	string line;
-	getline(s,line);
+	getline(s,line);`
 	cout<<line<<endl;
 	cin>>line;
 		s<<line<<endl;
-
+		}
 
 }
 
